@@ -42,7 +42,7 @@ header .logo img {
 
 nav {
   height: 100px;
-  background-color: rgb(11, 129, 129);
+  /* background-color: rgb(11, 129, 129); */
   margin-bottom: 20px;
 }
 
@@ -101,14 +101,14 @@ nav li a:hover {
 
 /* MAIN */
 main {
-  background-color: #0086ff;
+  /* background-color: #0086ff; */
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
 
 .title {
   height: 100px;
-  background-color: #abcfe7;
+  /* background-color: #abcfe7; */
   margin-bottom: 20px;
 }
 
@@ -121,14 +121,14 @@ main {
 
 .aside {
   width: 20%;
-  background-color: #abcfe7;
+  /* background-color: #abcfe7; */
 }
 
 .main-content {
   width: 56%;
   margin-left: 2%;
   margin-right: 2%;
-  background-color: #abcfe7;
+  /* background-color: #abcfe7; */
 }
 
 .clearfix .title h3 {
@@ -182,7 +182,17 @@ h4 {
 
 footer {
   height: 100px;
-  background-color: #8801fe;
+  /*background-color: #8801fe;*/
+  padding-top: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p:after {
+  content: " \2764";
+  color: #ff0000;
 }
 
 /* /FOOTER */
