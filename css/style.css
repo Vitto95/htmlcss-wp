@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 .clearfix::after {
@@ -73,6 +74,25 @@ nav li a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.banner.text {
+  margin-left: 50px;
+  padding-top: 320px;
+  width: 50%;
+}
+
+.banner.text h3 {
+  font-size: 30px;
+}
+
+.banner.text p {
+  font-size: 15px;
+}
+
+.banner.text h3,
+.banner.text p {
+  color: white;
 }
 
 /* grandezze contenitori */
