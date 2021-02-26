@@ -49,6 +49,7 @@ nav {
 main {
   background-color: #0086ff;
   padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -81,9 +82,8 @@ main {
 /* FOOTER */
 
 footer {
-  height: 135px;
+  height: 100px;
   background-color: #8801fe;
-  margin-top: 15px;
 }
 
 /* /FOOTER */
