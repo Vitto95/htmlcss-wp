@@ -34,10 +34,35 @@
   border-right: 1px solid #949494;
 }
 
+header .logo img {
+  height: 97%;
+  padding: 5px;
+}
+
 nav {
   height: 100px;
   background-color: rgb(11, 129, 129);
   margin-bottom: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  margin-top: 45px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav li a:hover {
+  color: red;
 }
 
 .introductive-image {
@@ -47,15 +72,6 @@ nav {
 }
 
 /* grandezze contenitori */
-
-/* logo */
-
-header .logo img {
-  height: 97%;
-  padding: 5px;
-}
-
-/* /logo */
 
 /* /HEADER */
 
