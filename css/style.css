@@ -14,13 +14,14 @@
 
 /* /GLOBAL */
 
-/* BODY */
+/* CONTAINER */
 
-body {
-  height: 1000px;
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-/* /BODY */
+/* /CONTAINER */
 
 /* HEADER */
 
@@ -29,7 +30,7 @@ header {
   height: 450px;
 }
 
-.logo-and-navbar {
+.logo {
   height: 90px;
   background-color: #e579e6;
 }
