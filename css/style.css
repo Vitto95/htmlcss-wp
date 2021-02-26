@@ -48,7 +48,7 @@ nav {
 
 nav ul {
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 43px;
 }
 
 nav li {
@@ -129,6 +129,51 @@ main {
   margin-left: 2%;
   margin-right: 2%;
   background-color: #abcfe7;
+}
+
+.clearfix .title h3 {
+  font-size: 30px;
+}
+
+.clearfix .title p {
+  font-size: 15px;
+}
+
+.title-text {
+  padding-top: 20px;
+}
+
+.aside .image-1,
+.main-content .image-2,
+.aside .image-3 {
+  width: 100%;
+  height: 240px;
+  background-color: red;
+}
+
+.aside .image-1 {
+  background-image: url(../img/img-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-content .image-2 {
+  background-image: url(../img/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.aside .image-3 {
+  background-image: url(../img/img-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h4 {
+  line-height: 3.6;
 }
 
 /* /MAIN */
